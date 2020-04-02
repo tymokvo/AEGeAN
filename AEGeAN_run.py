@@ -17,7 +17,7 @@ import torchvision.transforms as transforms
 from AEGeAN_1024 import GAN_D, GAN_G
 from torch.autograd import Variable
 from torch.backends import cudnn
-import time
+import time as t
 cudnn.benchmark = True
 
 
@@ -32,8 +32,8 @@ def init_weights(m):
 
 to_image = transforms.ToPILImage()
 
-date = time.strftime('%y-%m-%d')
-time = time.strftime('%H-%M-%S')
+date = t.strftime('%y-%m-%d')
+time = t.strftime('%H-%M-%S')
 
 # these settings push a gtx1080 to the limit...
 nf = 8
