@@ -10,5 +10,3 @@ Builds on the DCGAN PyTorch demo. This one generates images upto 1024x1024 so it
 Should work when the "dataroot" is configured ImageNet style: ".../a_dir_of_images/what_would_be_a_label" or ".../cat_pics/cute_cats/cat_001.jpg"
 
 Have fun!
-
-Examples of generated drawings at http://tylerkvochick.com/generating-the-generator.html
