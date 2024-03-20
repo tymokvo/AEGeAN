@@ -12,3 +12,5 @@ Should work when the "dataroot" is configured ImageNet style: ".../a_dir_of_imag
 Have fun!
 
 Examples of generated drawings [here](http://www.aiartonline.com/design/318/)
+
+A description of the project for which this was developed can be found [here](https://tylerkvochick.com/work/gen-the-gen).
